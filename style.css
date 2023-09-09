@@ -62,8 +62,8 @@
 #main_containers footer,
 #main_containers nav,
 #main_containers section {
-    margin: 0;
-    padding: 0;
+/*     margin: 0;
+    padding: 0; */
     display: block;
 }
 #main_containers header,
@@ -7115,4 +7115,7 @@ h2.bg {
 h2.bg {
     font-size: 40px !important;
 }
+}
+#main_containers .container, #main_containers .container-md, #main_containers .container-sm {
+    max-width: 100% !important;
 }
