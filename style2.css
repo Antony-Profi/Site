@@ -19,7 +19,7 @@ a:hover {
 }
 
 .s1 h1 span,
-h2 {
+.cs-page__row-decorated:first-child h2 {
     z-index: 0
 }
 
@@ -34,7 +34,7 @@ h2 {
 .s9 h3,
 .top-menu>ul>li>a,
 .top-menu>ul>li>ul>li>a,
-h3 {
+.cs-page__row-decorated:first-child h3 {
     text-transform: uppercase
 }
 
@@ -52,8 +52,8 @@ h3 {
     font-style: normal
 }
 
-body,
-html {
+.cs-page__row-decorated:first-child body,
+.cs-page__row-decorated:first-child html {
     min-width: 320px;
     width: auto;
     font-size: 18px;
@@ -523,7 +523,7 @@ body.compensate-for-scrollbar {
 }
 
 .header-mail,
-header p {
+.cs-page__row-decorated:first-child header p {
     font-size: 16px;
     float: left
 }
@@ -2173,12 +2173,12 @@ footer .footer-menu ul li a:hover {
     border-radius: 20px
 }
 
-footer {
+.cs-page__row-decorated:first-child footer {
     background: #2f2f2d;
     padding: 60px 0
 }
 
-footer .footer-menu {
+.cs-page__row-decorated:first-child footer .footer-menu {
     padding-top: 9px
 }
 
@@ -2188,13 +2188,13 @@ footer .footer-menu {
     list-style-type: none
 }
 
-footer .footer-menu ul li {
+.cs-page__row-decorated:first-child footer .footer-menu ul li {
     margin: 0;
     float: left;
     width: 50%
 }
 
-footer .footer-menu ul li a {
+.cs-page__row-decorated:first-child footer .footer-menu ul li a {
     color: #fff;
     font-size: 17px;
     line-height: 30px;
@@ -2202,11 +2202,11 @@ footer .footer-menu ul li a {
     text-decoration: none
 }
 
-footer .footer-info {
+.cs-page__row-decorated:first-child footer .footer-info {
     width: 460px
 }
 
-footer .footer-info .phone {
+.cs-page__row-decorated:first-child footer .footer-info .phone {
     color: #c6c6c6;
     font-size: 24px;
     font-weight: 600;
@@ -2217,7 +2217,7 @@ footer .footer-info .phone {
     float: left
 }
 
-footer .footer-info .mail {
+.cs-page__row-decorated:first-child footer .footer-info .mail {
     margin-left: 21px;
     margin-top: 9px;
     font-size: 16px;
@@ -2229,7 +2229,7 @@ footer .footer-info .mail {
 }
 
 .cs-page__row-decorated:first-child footer .footer-info .adress,
-footer .footer-info .copyright {
+.cs-page__row-decorated:first-child footer .footer-info .copyright {
     margin-left: 18px;
     margin-top: 7px;
     line-height: 24px;
@@ -2250,13 +2250,13 @@ footer .footer-info .copyright {
     color: #767676
 }
 
-footer .footer-links {
+.cs-page__row-decorated:first-child footer .footer-links {
     padding-right: 40px;
     padding-top: 8px;
     width: 182px
 }
 
-footer .footer-links .google-play {
+.cs-page__row-decorated:first-child footer .footer-links .google-play {
     width: 141px;
     height: 43px;
     background: url(img/google-play.png);
@@ -2268,11 +2268,11 @@ footer .footer-links .google-play {
 .bsner_seals .close_btn:hover,
 .mini-gal a:hover:after,
 .cs-page__row-decorated:first-child footer .footer-links .google-play:hover,
-footer .footer-links .social a:hover {
+.cs-page__row-decorated:first-child footer .footer-links .social a:hover {
     opacity: 1
 }
 
-footer .footer-links .social {
+.cs-page__row-decorated:first-child footer .footer-links .social {
     margin-top: 18px
 }
 
@@ -2286,23 +2286,23 @@ footer .footer-links .social {
     transition: .2s
 }
 
-footer .footer-links .social a.vk {
+.cs-page__row-decorated:first-child footer .footer-links .social a.vk {
     background: url("img/vk.png")
 }
 
-footer .footer-links .social a.yt {
+.cs-page__row-decorated:first-child footer .footer-links .social a.yt {
     background: url("img/youtube.png")
 }
 
-footer .footer-links .social a.wa {
+.cs-page__row-decorated:first-child footer .footer-links .social a.wa {
     background: url("img/whatsapp-big.png")
 }
 
-footer .footer-links .social a.ig {
+.cs-page__row-decorated:first-child footer .footer-links .social a.ig {
     background: url("img/instagram.png")
 }
 
-footer .footer-logo {
+.cs-page__row-decorated:first-child footer .footer-logo {
     width: 108px;
     height: 102px;
     display: block;
@@ -3482,7 +3482,7 @@ ul.wsp-posts-list li a {
     .s9 .black-block,
     .s9 .text-bottom,
     .top-menu>ul>li>ul>li>ul>li,
-    footer .footer-info {
+    .cs-page__row-decorated:first-child footer .footer-info {
         width: 100%
     }
     .top-menu>ul>li>a {
@@ -3522,7 +3522,7 @@ ul.wsp-posts-list li a {
     .header-mail {
         float: right
     }
-    header p {
+    .cs-page__row-decorated:first-child header p {
         font-size: 15px
     }
     .header-whatsapp {
@@ -3765,7 +3765,7 @@ ul.wsp-posts-list li a {
         float: right;
         margin-right: -14px
     }
-    footer .footer-links .google-play {
+    .cs-page__row-decorated:first-child footer .footer-links .google-play {
         width: 132px;
         height: 40px;
         background-size: contain
@@ -3891,7 +3891,7 @@ ul.wsp-posts-list li a {
         line-height: 22px;
         margin-top: 123px
     }
-    header p {
+    .cs-page__row-decorated:first-child header p {
         font-size: 13px;
         width: 100%;
         text-align: center
@@ -3915,7 +3915,7 @@ ul.wsp-posts-list li a {
     .s2 .container:before {
         font-size: 184px
     }
-    h2 {
+    .cs-page__row-decorated:first-child h2 {
         font-size: 40px !important
     }
     h2.bw span:before {
@@ -4079,36 +4079,36 @@ ul.wsp-posts-list li a {
         padding-right: 10px;
         font-size: 18px
     }
-    footer .footer-menu ul li a {
+    .cs-page__row-decorated:first-child footer .footer-menu ul li a {
         font-size: 17px;
         letter-spacing: 0
     }
-    footer .footer-info {
+    .cs-page__row-decorated:first-child footer .footer-info {
         border-right: none;
         padding-top: 10px
     }
-    footer .footer-links {
+    .cs-page__row-decorated:first-child footer .footer-links {
         padding-right: 0;
         margin-top: 20px;
         height: 102px;
         padding-top: 29px
     }
-    footer .footer-links .google-play {
+    .cs-page__row-decorated:first-child footer .footer-links .google-play {
         float: left;
         width: 141px;
         height: 43px;
         margin-left: 80px
     }
-    footer .footer-links .social {
+    .cs-page__row-decorated:first-child footer .footer-links .social {
         float: left;
         margin-left: 20px;
         margin-top: 7px;
         width: 141px
     }
-    footer .footer-links .social a {
+    .cs-page__row-decorated:first-child footer .footer-links .social a {
         margin-right: 7px
     }
-    footer .footer-logo {
+    .cs-page__row-decorated:first-child footer .footer-logo {
         margin-top: 20px
     }
     .content-section .picture-block .pic-block {
@@ -4205,7 +4205,7 @@ ul.wsp-posts-list li a {
         position: absolute
     }
     .s4,
-    footer {
+    .cs-page__row-decorated:first-child footer {
         padding-bottom: 80px
     }
     .flybar-search {
@@ -4217,10 +4217,10 @@ ul.wsp-posts-list li a {
         font-size: 16px;
         width: 304px
     }
-    header {
+    .cs-page__row-decorated:first-child header {
         height: 196px
     }
-    header:before {
+    .cs-page__row-decorated:first-child header:before {
         top: -20px
     }
     .header-phone {
@@ -4239,7 +4239,7 @@ ul.wsp-posts-list li a {
     .s4 .circle,
     .s5 .scheme-item.two:before,
     .s9 .text-middle .pic-gal:after,
-    header p {
+    .cs-page__row-decorated:first-child header p {
         display: none
     }
     .header-whatsapp {
@@ -4561,18 +4561,18 @@ ul.wsp-posts-list li a {
         background-position-x: 13px;
         padding-left: 50px
     }
-    footer .footer-menu {
+    .cs-page__row-decorated:first-child footer .footer-menu {
         border-right: none;
         border-bottom: 1px solid #4a4a48;
         padding-top: 0;
         height: 101px
     }
-    footer .footer-info {
+    .cs-page__row-decorated:first-child footer .footer-info {
         border-bottom: 1px solid #4a4a48;
         padding-bottom: 10px;
         height: auto
     }
-    footer .footer-info .copyright {
+    .cs-page__row-decorated:first-child footer .footer-info .copyright {
         position: absolute;
         margin: 0;
         width: 100%;
@@ -4580,7 +4580,7 @@ ul.wsp-posts-list li a {
         bottom: -165px;
         font-size: 14px
     }
-    footer .footer-links {
+    .cs-page__row-decorated:first-child footer .footer-links {
         width: 141px;
         margin: 0 auto;
         float: none;
@@ -4588,10 +4588,10 @@ ul.wsp-posts-list li a {
         border-right: none;
         height: 113px
     }
-    footer .footer-links .google-play {
+    .cs-page__row-decorated:first-child footer .footer-links .google-play {
         margin-left: 0
     }
-    footer .footer-links .social {
+    .cs-page__row-decorated:first-child footer .footer-links .social {
         margin-left: 0;
         margin-top: 10px
     }
@@ -4692,8 +4692,8 @@ ul.wsp-posts-list li a {
     .s2 .tabs,
     .s3:after,
     .s3:before,
-    header:after,
-    header:before {
+    .cs-page__row-decorated:first-child header:after,
+    .cs-page__row-decorated:first-child header:before {
         display: none
     }
     .col-xs-2 {
@@ -4750,7 +4750,7 @@ ul.wsp-posts-list li a {
     .flybar-search .search-form input:invalid+.placeholder-text {
         display: none
     }
-    header {
+    .cs-page__row-decorated:first-child header {
         height: 169px
     }
     .header-logo {
@@ -4787,7 +4787,7 @@ ul.wsp-posts-list li a {
         right: 50px;
         top: 30px
     }
-    h2 {
+    .cs-page__row-decorated:first-child h2 {
         font-size: 36px !important
     }
     .mozaika-section .main-mozaika-item span,
@@ -5280,7 +5280,7 @@ ul.wsp-posts-list li a {
 }
 
 @media all and (max-width:416px) {
-    footer .footer-info .copyright {
+    .cs-page__row-decorated:first-child footer .footer-info .copyright {
         bottom: -180px
     }
 }
@@ -5401,12 +5401,12 @@ ul.wsp-posts-list li a {
         height: 70px;
         background-size: contain
     }
-    h2 {
+    .cs-page__row-decorated:first-child h2 {
         font-size: 28px !important;
         line-height: 34px !important
     }
-    h2.bg span:before,
-    h2.wg span:before {
+    .cs-page__row-decorated:first-child h2.bg span:before,
+    .cs-page__row-decorated:first-child h2.wg span:before {
         height: 10px;
         bottom: 4px
     }
