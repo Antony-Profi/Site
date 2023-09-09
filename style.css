@@ -917,7 +917,7 @@ h2.bg span:before {
     margin: 0;
 }
 h2.wg {
-    color: #fff;
+    color: #fff !important;
 }
 h2.wg span:before {
     background: #FFA500;
