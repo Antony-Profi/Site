@@ -129,8 +129,8 @@ body.compensate-for-scrollbar {
 #main_containers header,
 #main_containers nav,
 #main_containers section {
-    margin: 0;
-    padding: 0;
+/*     margin: 0;
+    padding: 0; */
     display: block
 }
 
