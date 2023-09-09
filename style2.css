@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap);
-.cs-page__row-decorated:first-child ol,
-.cs-page__row-decorated:first-child p,
-.cs-page__row-decorated:first-child ul {
+#main_containers ol,
+#main_containers p,
+#main_containers ul {
     margin: 30px 0
 }
 
-.cs-page__row-decorated:first-child table tr td,
-.cs-page__row-decorated:first-child table tr th {
+#main_containers table tr td,
+#main_containers table tr th {
     border-bottom: 1px solid #e1e6f1
 }
 
@@ -19,7 +19,7 @@ a:hover {
 }
 
 .s1 h1 span,
-.cs-page__row-decorated:first-child h2 {
+#main_containers h2 {
     z-index: 0
 }
 
@@ -34,11 +34,11 @@ a:hover {
 .s9 h3,
 .top-menu>ul>li>a,
 .top-menu>ul>li>ul>li>a,
-.cs-page__row-decorated:first-child h3 {
+#main_containers h3 {
     text-transform: uppercase
 }
 
-.cs-page__row-decorated:first-child *,
+#main_containers *,
 .video-play:focus {
     outline: 0
 }
@@ -52,8 +52,8 @@ a:hover {
     font-style: normal
 }
 
-.cs-page__row-decorated:first-child body,
-.cs-page__row-decorated:first-child html {
+#main_containers body,
+#main_containers html {
     min-width: 320px;
     width: auto;
     font-size: 18px;
@@ -67,13 +67,13 @@ a:hover {
     -moz-osx-font-smoothing: grayscale
 }
 
-.cs-page__row-decorated:first-child h1,
-.cs-page__row-decorated:first-child h2,
-.cs-page__row-decorated:first-child h4 {
+#main_containers h1,
+#main_containers h2,
+#main_containers h4 {
     font-weight: 600 !important
 }
 
-.cs-page__row-decorated:first-child html {
+#main_containers html {
     overflow-x: hidden
 }
 
@@ -81,82 +81,82 @@ body.compensate-for-scrollbar {
     padding-right: 0
 }
 
-.cs-page__row-decorated:first-child * {
+#main_containers * {
     box-sizing: border-box;
     position: relative
 }
 
-.cs-page__row-decorated:first-child a {
+#main_containers a {
     color: #385792
 }
 
-.cs-page__row-decorated:first-child h1,
-.cs-page__row-decorated:first-child h2 {
+#main_containers h1,
+#main_containers h2 {
     color: #1e1e1d
 }
 
-.cs-page__row-decorated:first-child h1 {
+#main_containers h1 {
     font-size: 66px !important;
     line-height: 72px !important
 }
 
-.cs-page__row-decorated:first-child h2 {
+#main_containers h2 {
     font-size: 44px !important;
     font-style: italic;
     line-height: 48px !important
 }
 
-.cs-page__row-decorated:first-child h3,
-.cs-page__row-decorated:first-child h4 {
+#main_containers h3,
+#main_containers h4 {
     font-size: 22px !important;
     margin-top: 40px !important
 }
 
-.cs-page__row-decorated:first-child h3 {
+#main_containers h3 {
     color: #2aa36f;
     margin-bottom: 15px !important
 }
 
-.cs-page__row-decorated:first-child h4 {
+#main_containers h4 {
     color: #2f2f2d;
     margin-bottom: 20px !important
 }
 
-.cs-page__row-decorated:first-child article,
-.cs-page__row-decorated:first-child aside,
-.cs-page__row-decorated:first-child div,
-.cs-page__row-decorated:first-child footer,
-.cs-page__row-decorated:first-child header,
-.cs-page__row-decorated:first-child nav,
-.cs-page__row-decorated:first-child section {
+#main_containers article,
+#main_containers aside,
+#main_containers div,
+#main_containers footer,
+#main_containers header,
+#main_containers nav,
+#main_containers section {
     margin: 0;
     padding: 0;
     display: block
 }
 
-.cs-page__row-decorated:first-child header,
-.cs-page__row-decorated:first-child section {
+#main_containers header,
+#main_containers section {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto
 }
 
 .flybar,
-.cs-page__row-decorated:first-child img {
+#main_containers img {
     max-width: 100%
 }
 
-.cs-page__row-decorated:first-child .clear,
-.cs-page__row-decorated:first-child .container:after,
+#main_containers .clear,
+#main_containers .container:after,
 .motiv-phones:after,
-.cs-page__row-decorated:first-child div:after,
-.cs-page__row-decorated:first-child section:after {
+#main_containers div:after,
+#main_containers section:after {
     clear: both;
     content: " ";
     display: table
 }
 
-.cs-page__row-decorated:first-child p {
+#main_containers p {
     line-height: 26px !important;
     color: #000
 }
@@ -178,23 +178,23 @@ body.compensate-for-scrollbar {
 }
 
 .header-phone,
-.cs-page__row-decorated:first-child header p {
+#main_containers header p {
     margin-left: 33px;
     color: #000
 }
 
-.cs-page__row-decorated:first-child ol,
-.cs-page__row-decorated:first-child ul {
+#main_containers ol,
+#main_containers ul {
     padding-left: 20px
 }
 
-.cs-page__row-decorated:first-child ol li,
-.cs-page__row-decorated:first-child ul li {
+#main_containers ol li,
+#main_containers ul li {
     margin-bottom: 20px;
     line-height: 24px
 }
 
-.cs-page__row-decorated:first-child img {
+#main_containers img {
     height: auto;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -202,12 +202,12 @@ body.compensate-for-scrollbar {
     user-select: none
 }
 
-.cs-page__row-decorated:first-child table {
+#main_containers table {
     width: 100%;
     border-collapse: collapse
 }
 
-.cs-page__row-decorated:first-child table tr th {
+#main_containers table tr th {
     text-align: left;
     color: #6c81ab;
     font-family: Manrope-Bold;
@@ -216,7 +216,7 @@ body.compensate-for-scrollbar {
     padding: 0 0 19px
 }
 
-.cs-page__row-decorated:first-child table tr td {
+#main_containers table tr td {
     color: #32384e;
     font-size: 16px;
     line-height: 26px;
@@ -473,7 +473,7 @@ body.compensate-for-scrollbar {
     display: block
 }
 
-.cs-page__row-decorated:first-child header:before {
+#main_containers header:before {
     content: "";
     display: block;
     position: absolute;
@@ -484,7 +484,7 @@ body.compensate-for-scrollbar {
     margin-left: -250px
 }
 
-.cs-page__row-decorated:first-child header:after {
+#main_containers header:after {
     content: "";
     display: block;
     width: 469px;
@@ -523,7 +523,7 @@ body.compensate-for-scrollbar {
 }
 
 .header-mail,
-.cs-page__row-decorated:first-child header p {
+#main_containers header p {
     font-size: 16px;
     float: left
 }
@@ -1985,9 +1985,9 @@ ul.children {
     border-color: #ffb917
 }
 
-.cs-page__row-decorated:first-child footer .footer-info,
-.cs-page__row-decorated:first-child footer .footer-links,
-.cs-page__row-decorated:first-child footer .footer-menu {
+#main_containers footer .footer-info,
+#main_containers footer .footer-links,
+#main_containers footer .footer-menu {
     border-right: 1px solid #4a4a48;
     height: 109px
 }
@@ -2173,28 +2173,28 @@ footer .footer-menu ul li a:hover {
     border-radius: 20px
 }
 
-.cs-page__row-decorated:first-child footer {
+#main_containers footer {
     background: #2f2f2d;
     padding: 60px 0
 }
 
-.cs-page__row-decorated:first-child footer .footer-menu {
+#main_containers footer .footer-menu {
     padding-top: 9px
 }
 
-.cs-page__row-decorated:first-child footer .footer-menu ul {
+#main_containers footer .footer-menu ul {
     padding: 0;
     margin: 0;
     list-style-type: none
 }
 
-.cs-page__row-decorated:first-child footer .footer-menu ul li {
+#main_containers footer .footer-menu ul li {
     margin: 0;
     float: left;
     width: 50%
 }
 
-.cs-page__row-decorated:first-child footer .footer-menu ul li a {
+#main_containers footer .footer-menu ul li a {
     color: #fff;
     font-size: 17px;
     line-height: 30px;
@@ -2202,11 +2202,11 @@ footer .footer-menu ul li a:hover {
     text-decoration: none
 }
 
-.cs-page__row-decorated:first-child footer .footer-info {
+#main_containers footer .footer-info {
     width: 460px
 }
 
-.cs-page__row-decorated:first-child footer .footer-info .phone {
+#main_containers footer .footer-info .phone {
     color: #c6c6c6;
     font-size: 24px;
     font-weight: 600;
@@ -2217,7 +2217,7 @@ footer .footer-menu ul li a:hover {
     float: left
 }
 
-.cs-page__row-decorated:first-child footer .footer-info .mail {
+#main_containers footer .footer-info .mail {
     margin-left: 21px;
     margin-top: 9px;
     font-size: 16px;
@@ -2228,35 +2228,35 @@ footer .footer-menu ul li a:hover {
     background: url("img/mail.png") 0 4px no-repeat
 }
 
-.cs-page__row-decorated:first-child footer .footer-info .adress,
-.cs-page__row-decorated:first-child footer .footer-info .copyright {
+#main_containers footer .footer-info .adress,
+#main_containers footer .footer-info .copyright {
     margin-left: 18px;
     margin-top: 7px;
     line-height: 24px;
     float: left
 }
 
-.cs-page__row-decorated:first-child footer .footer-info .adress {
+#main_containers footer .footer-info .adress {
     color: #c6c6c6;
     font-size: 16px
 }
 
-.cs-page__row-decorated:first-child footer .footer-info .copyright {
+#main_containers footer .footer-info .copyright {
     color: #767676;
     font-size: 14px
 }
 
-.cs-page__row-decorated:first-child footer .footer-info .copyright a {
+#main_containers footer .footer-info .copyright a {
     color: #767676
 }
 
-.cs-page__row-decorated:first-child footer .footer-links {
+#main_containers footer .footer-links {
     padding-right: 40px;
     padding-top: 8px;
     width: 182px
 }
 
-.cs-page__row-decorated:first-child footer .footer-links .google-play {
+#main_containers footer .footer-links .google-play {
     width: 141px;
     height: 43px;
     background: url(img/google-play.png);
@@ -2267,16 +2267,16 @@ footer .footer-menu ul li a:hover {
 
 .bsner_seals .close_btn:hover,
 .mini-gal a:hover:after,
-.cs-page__row-decorated:first-child footer .footer-links .google-play:hover,
-.cs-page__row-decorated:first-child footer .footer-links .social a:hover {
+#main_containers footer .footer-links .google-play:hover,
+#main_containers footer .footer-links .social a:hover {
     opacity: 1
 }
 
-.cs-page__row-decorated:first-child footer .footer-links .social {
+#main_containers footer .footer-links .social {
     margin-top: 18px
 }
 
-.cs-page__row-decorated:first-child footer .footer-links .social a {
+#main_containers footer .footer-links .social a {
     display: block;
     width: 30px;
     height: 30px;
@@ -2286,23 +2286,23 @@ footer .footer-menu ul li a:hover {
     transition: .2s
 }
 
-.cs-page__row-decorated:first-child footer .footer-links .social a.vk {
+#main_containers footer .footer-links .social a.vk {
     background: url("img/vk.png")
 }
 
-.cs-page__row-decorated:first-child footer .footer-links .social a.yt {
+#main_containers footer .footer-links .social a.yt {
     background: url("img/youtube.png")
 }
 
-.cs-page__row-decorated:first-child footer .footer-links .social a.wa {
+#main_containers footer .footer-links .social a.wa {
     background: url("img/whatsapp-big.png")
 }
 
-.cs-page__row-decorated:first-child footer .footer-links .social a.ig {
+#main_containers footer .footer-links .social a.ig {
     background: url("img/instagram.png")
 }
 
-.cs-page__row-decorated:first-child footer .footer-logo {
+#main_containers footer .footer-logo {
     width: 108px;
     height: 102px;
     display: block;
@@ -3335,8 +3335,8 @@ ul.wsp-posts-list li a {
 }
 
 @media all and (max-width:1399px) {
-    .cs-page__row-decorated:first-child header,
-    .cs-page__row-decorated:first-child section {
+    #main_containers header,
+    #main_containers section {
         overflow: hidden
     }
     .top-menu>ul>li>a {
@@ -3482,7 +3482,7 @@ ul.wsp-posts-list li a {
     .s9 .black-block,
     .s9 .text-bottom,
     .top-menu>ul>li>ul>li>ul>li,
-    .cs-page__row-decorated:first-child footer .footer-info {
+    #main_containers footer .footer-info {
         width: 100%
     }
     .top-menu>ul>li>a {
@@ -3522,7 +3522,7 @@ ul.wsp-posts-list li a {
     .header-mail {
         float: right
     }
-    .cs-page__row-decorated:first-child header p {
+    #main_containers header p {
         font-size: 15px
     }
     .header-whatsapp {
@@ -3738,42 +3738,42 @@ ul.wsp-posts-list li a {
     .s12 .wide-black-block:before {
         left: -14px
     }
-    .cs-page__row-decorated:first-child footer .footer-menu ul li a {
+    #main_containers footer .footer-menu ul li a {
         font-size: 16px;
         letter-spacing: -1px
     }
-    .cs-page__row-decorated:first-child footer .footer-info .phone {
+    #main_containers footer .footer-info .phone {
         margin-left: 0;
         margin-top: 0
     }
-    .cs-page__row-decorated:first-child footer .footer-info .mail {
+    #main_containers footer .footer-info .mail {
         margin-left: 15px;
         margin-top: 4px
     }
-    .cs-page__row-decorated:first-child footer .footer-info .adress {
+    #main_containers footer .footer-info .adress {
         margin-left: 0;
         margin-top: 4px
     }
-    .cs-page__row-decorated:first-child footer .footer-info .copyright {
+    #main_containers footer .footer-info .copyright {
         margin-left: 0;
         font-size: 13px;
         margin-top: 2px
     }
-    .cs-page__row-decorated:first-child footer .footer-links {
+    #main_containers footer .footer-links {
         width: calc(100% + 14px);
         padding-right: 14px;
         float: right;
         margin-right: -14px
     }
-    .cs-page__row-decorated:first-child footer .footer-links .google-play {
+    #main_containers footer .footer-links .google-play {
         width: 132px;
         height: 40px;
         background-size: contain
     }
-    .cs-page__row-decorated:first-child footer .footer-links .social {
+    #main_containers footer .footer-links .social {
         width: 132px
     }
-    .cs-page__row-decorated:first-child footer .footer-links .social a {
+    #main_containers footer .footer-links .social a {
         margin-right: 4px
     }
     .content-section h1 {
@@ -3891,7 +3891,7 @@ ul.wsp-posts-list li a {
         line-height: 22px;
         margin-top: 123px
     }
-    .cs-page__row-decorated:first-child header p {
+    #main_containers header p {
         font-size: 13px;
         width: 100%;
         text-align: center
@@ -3915,7 +3915,7 @@ ul.wsp-posts-list li a {
     .s2 .container:before {
         font-size: 184px
     }
-    .cs-page__row-decorated:first-child h2 {
+    #main_containers h2 {
         font-size: 40px !important
     }
     h2.bw span:before {
@@ -4079,36 +4079,36 @@ ul.wsp-posts-list li a {
         padding-right: 10px;
         font-size: 18px
     }
-    .cs-page__row-decorated:first-child footer .footer-menu ul li a {
+    #main_containers footer .footer-menu ul li a {
         font-size: 17px;
         letter-spacing: 0
     }
-    .cs-page__row-decorated:first-child footer .footer-info {
+    #main_containers footer .footer-info {
         border-right: none;
         padding-top: 10px
     }
-    .cs-page__row-decorated:first-child footer .footer-links {
+    #main_containers footer .footer-links {
         padding-right: 0;
         margin-top: 20px;
         height: 102px;
         padding-top: 29px
     }
-    .cs-page__row-decorated:first-child footer .footer-links .google-play {
+    #main_containers footer .footer-links .google-play {
         float: left;
         width: 141px;
         height: 43px;
         margin-left: 80px
     }
-    .cs-page__row-decorated:first-child footer .footer-links .social {
+    #main_containers footer .footer-links .social {
         float: left;
         margin-left: 20px;
         margin-top: 7px;
         width: 141px
     }
-    .cs-page__row-decorated:first-child footer .footer-links .social a {
+    #main_containers footer .footer-links .social a {
         margin-right: 7px
     }
-    .cs-page__row-decorated:first-child footer .footer-logo {
+    #main_containers footer .footer-logo {
         margin-top: 20px
     }
     .content-section .picture-block .pic-block {
@@ -4205,7 +4205,7 @@ ul.wsp-posts-list li a {
         position: absolute
     }
     .s4,
-    .cs-page__row-decorated:first-child footer {
+    #main_containers footer {
         padding-bottom: 80px
     }
     .flybar-search {
@@ -4217,10 +4217,10 @@ ul.wsp-posts-list li a {
         font-size: 16px;
         width: 304px
     }
-    .cs-page__row-decorated:first-child header {
+    #main_containers header {
         height: 196px
     }
-    .cs-page__row-decorated:first-child header:before {
+    #main_containers header:before {
         top: -20px
     }
     .header-phone {
@@ -4239,7 +4239,7 @@ ul.wsp-posts-list li a {
     .s4 .circle,
     .s5 .scheme-item.two:before,
     .s9 .text-middle .pic-gal:after,
-    .cs-page__row-decorated:first-child header p {
+    #main_containers header p {
         display: none
     }
     .header-whatsapp {
@@ -4561,18 +4561,18 @@ ul.wsp-posts-list li a {
         background-position-x: 13px;
         padding-left: 50px
     }
-    .cs-page__row-decorated:first-child footer .footer-menu {
+    #main_containers footer .footer-menu {
         border-right: none;
         border-bottom: 1px solid #4a4a48;
         padding-top: 0;
         height: 101px
     }
-    .cs-page__row-decorated:first-child footer .footer-info {
+    #main_containers footer .footer-info {
         border-bottom: 1px solid #4a4a48;
         padding-bottom: 10px;
         height: auto
     }
-    .cs-page__row-decorated:first-child footer .footer-info .copyright {
+    #main_containers footer .footer-info .copyright {
         position: absolute;
         margin: 0;
         width: 100%;
@@ -4580,7 +4580,7 @@ ul.wsp-posts-list li a {
         bottom: -165px;
         font-size: 14px
     }
-    .cs-page__row-decorated:first-child footer .footer-links {
+    #main_containers footer .footer-links {
         width: 141px;
         margin: 0 auto;
         float: none;
@@ -4588,10 +4588,10 @@ ul.wsp-posts-list li a {
         border-right: none;
         height: 113px
     }
-    .cs-page__row-decorated:first-child footer .footer-links .google-play {
+    #main_containers footer .footer-links .google-play {
         margin-left: 0
     }
-    .cs-page__row-decorated:first-child footer .footer-links .social {
+    #main_containers footer .footer-links .social {
         margin-left: 0;
         margin-top: 10px
     }
@@ -4692,8 +4692,8 @@ ul.wsp-posts-list li a {
     .s2 .tabs,
     .s3:after,
     .s3:before,
-    .cs-page__row-decorated:first-child header:after,
-    .cs-page__row-decorated:first-child header:before {
+    #main_containers header:after,
+    #main_containers header:before {
         display: none
     }
     .col-xs-2 {
@@ -4750,7 +4750,7 @@ ul.wsp-posts-list li a {
     .flybar-search .search-form input:invalid+.placeholder-text {
         display: none
     }
-    .cs-page__row-decorated:first-child header {
+    #main_containers header {
         height: 169px
     }
     .header-logo {
@@ -4787,7 +4787,7 @@ ul.wsp-posts-list li a {
         right: 50px;
         top: 30px
     }
-    .cs-page__row-decorated:first-child h2 {
+    #main_containers h2 {
         font-size: 36px !important
     }
     .mozaika-section .main-mozaika-item span,
@@ -5280,7 +5280,7 @@ ul.wsp-posts-list li a {
 }
 
 @media all and (max-width:416px) {
-    .cs-page__row-decorated:first-child footer .footer-info .copyright {
+    #main_containers footer .footer-info .copyright {
         bottom: -180px
     }
 }
@@ -5401,12 +5401,12 @@ ul.wsp-posts-list li a {
         height: 70px;
         background-size: contain
     }
-    .cs-page__row-decorated:first-child h2 {
+    #main_containers h2 {
         font-size: 28px !important;
         line-height: 34px !important
     }
-    .cs-page__row-decorated:first-child h2.bg span:before,
-    .cs-page__row-decorated:first-child h2.wg span:before {
+    #main_containers h2.bg span:before,
+    #main_containers h2.wg span:before {
         height: 10px;
         bottom: 4px
     }
