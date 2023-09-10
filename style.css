@@ -7120,7 +7120,7 @@ h2.bg {
 #main_containers .container, #main_containers .container-md, #main_containers .container-sm {
     max-width: 100% !important;
 }
-.s5 img.lazy.loaded {
+.s3 img.lazy.loaded {
     width: 20vmin !important;
     height: 20vmin !important;
 
