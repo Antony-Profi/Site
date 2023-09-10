@@ -943,7 +943,7 @@ h2.wg span:before {
     float: left;
     margin-top: 62px;
     margin-left: 99px;
-    width: 377px;
+    width: 450px;
 }
 .s5 .scheme-item.one:after {
     content: "";
@@ -1014,7 +1014,7 @@ h2.wg span:before {
 .s6 {
     background: #f2efe7;
     max-width: 100%;
-    padding: 95px 0;
+    padding: 45px 0 95px;
 }
 .s6:before {
     content: "";
@@ -1507,6 +1507,7 @@ h2.wg span:before {
     padding-top: 33px;
     border-top: 1px solid #dae2dc;
     border-bottom: 1px solid #dae2dc;
+    height: 100%;
 }
 .s10 .advantage-list.pic:before {
     content: "";
