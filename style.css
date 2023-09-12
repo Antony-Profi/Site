@@ -7158,7 +7158,7 @@ h2.bg {
 .years_10 .sub-title {
     margin: 0 auto !important;
 }
-.done_works h2 class=“bg done_works” {
+.done_works h2.bg span:before {
     width: calc(100% + 40px);
     left: -38px;
 }
