@@ -7158,3 +7158,7 @@ h2.bg {
 .years_10 .sub-title {
     margin: 0 auto !important;
 }
+.years_10 .h2.bg span:before {
+    width: calc(100% + 26px);
+    left: -30px;
+}
