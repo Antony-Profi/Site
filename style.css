@@ -7159,13 +7159,6 @@ h2.bg {
     margin: 0 auto !important;
 }
 .years_10 .h2.bg span:before {
-    content: "";
-    display: block;
-    background: #FFA500;
-    width: calc(100% + 29px);
-    height: 15px;
-    z-index: -1;
-    position: absolute;
-    bottom: 6px;
-    left: -6px;
+    width: calc(100% + 40px);
+    left: -38px;
 }
