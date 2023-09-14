@@ -7159,8 +7159,8 @@ h2.bg {
     margin: 0 auto !important;
 }
 .done_works span:before {
-    width: calc(100% + 30px) !important;
-    left: -25px !important;
+    width: calc(100% + 40px) !important;
+    left: -38px !important;
 }
 @media (max-width: 575px){
     .s5 .scheme-item.one {
