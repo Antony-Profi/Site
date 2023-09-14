@@ -7162,3 +7162,8 @@ h2.bg {
     width: calc(100% + 40px);
     left: -38px;
 }
+@media (max-width: 575px){
+    .s5 .scheme-item.one {
+        width: 293px;
+    }
+}
