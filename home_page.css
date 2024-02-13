@@ -1,0 +1,627 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+#main_containers * {
+    box-sizing: border-box;
+    position: relative;
+    outline: none;
+}
+
+html,
+body {
+    min-width: 320px;
+    width: auto;
+    font-size: 18px;
+    color: #32384e;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+#main_containers body.compensate-for-scrollbar {
+    padding-right: 0;
+}
+
+#main_containers a {
+    color: #385792;
+}
+
+#main_containers a:hover {
+    text-decoration: none;
+}
+
+#main_containers h1 {
+    font-size: 66px !important;
+    font-weight: 600 !important;
+    line-height: 72px !important;
+    color: #1e1e1d;
+}
+
+#main_containers h2 {
+    color: #1e1e1d;
+    font-size: 44px !important;
+    font-weight: 600 !important;
+    font-style: italic;
+    line-height: 48px !important;
+    z-index: 0;
+}
+
+#main_containers h3 {
+    font-size: 22px !important;
+    text-transform: uppercase;
+    color: #2aa36f;
+    margin-bottom: 15px !important;
+    margin-top: 40px !important;
+}
+
+#main_containers h4 {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    color: #2f2f2d;
+    margin-bottom: 20px !important;
+    margin-top: 40px !important;
+}
+
+#main_containers .h1 {
+    padding: 30px 120px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 95px;
+    max-width: 100%;
+}
+
+#main_containers .h1:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 194px;
+    background: url("https://drive.google.com/uc?export=view&id=1BfeygfT2b3H18ZdSFGGdxsPil_gLl0N3");
+    position: absolute;
+    top: 320px;
+    right: 0;
+}
+
+#main_containers .h1 h2 {
+    margin-bottom: 25px;
+}
+
+#main_containers h2.bg span:before {
+    content: "";
+    display: block;
+    background: #FFA500;
+    width: calc(100% + 6px);
+    height: 15px;
+    z-index: -1;
+    position: absolute;
+    bottom: 6px;
+    left: -3px;
+}
+
+/* #main_containers .h1 .stand-mozaika:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 259px;
+    height: 700px;
+    width: 750px;
+    margin-top: 30px;
+    background: url("https://antony-profi.github.io/Site/stand-mozaika.png") no-repeat center 0;
+    background-size: cover;
+    padding-top: 27px;
+    z-index: 1;
+} */
+
+#main_containers .stand-mozaika > .row {
+    /* width: 28%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#main_containers .stand-mozaika > .row > div {
+    width: 30%;
+}
+
+#main_containers .h1 .stand-mozaika .stand-item .img img {
+    margin-top: 35px;
+    width: 120px;
+    height: 117px;
+    object-fit: cover;
+}
+
+#main_containers .h1 .stand-mozaika .stand-item span {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+    line-height: 28px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#main_containers .h1 .stand-mozaika .stand-item span + span {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+#main_containers .h2 {
+    height: 770px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background: #2f2f2d;
+    max-width: 100%;
+}
+
+#main_containers .h2 .container_2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -52px;
+    left: -744px;
+    background: url("https://antony-profi.github.io/Site/mozaika.png");
+    width: 603px;
+    height: 603px;
+}
+
+#main_containers .h2 .container_2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -151px;
+    right: -678px;
+    background: url("https://antony-profi.github.io/Site/orange_gear.png");
+    width: 436px;
+    height: 436px;
+}
+
+#main_containers .h2 h2 {
+    margin: 0;
+}
+
+#main_containers .h2 .three-two {
+    display: block;
+}
+
+#main_containers .h2 .two-three {
+    display: none;
+}
+
+#main_containers h2.wg {
+    color: #fff;
+}
+
+#main_containers h2.wg span:before {
+    background: #FFA500;
+    content: "";
+    display: block;
+    width: calc(100% + 6px);
+    height: 15px;
+    z-index: -1;
+    position: absolute;
+    bottom: 6px;
+    left: -3px;
+}
+
+#main_containers .h2 .block-scheme .row {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+#main_containers .h2 .scheme-item {
+    min-height: 141px;
+    text-align: left;
+    padding-left: 140px;
+    z-index: 0;
+}
+
+#main_containers .h2 .scheme-item.one {
+    background: url("https://antony-profi.github.io/Site/01.png") no-repeat;
+    float: left;
+    margin-top: 62px;
+    margin-left: 99px;
+    width: 377px;
+}
+
+#main_containers .h2 .scheme-item.one:after {
+    content: "";
+    display: block;
+    background: url("https://antony-profi.github.io/Site/line-1.png");
+    width: 117px;
+    height: 96px;
+    position: absolute;
+    top: 140px;
+    left: 64px;
+    z-index: -1;
+}
+
+#main_containers .h2 .scheme-item.two {
+    background: url("https://antony-profi.github.io/Site/02.png") no-repeat;
+    float: left;
+    margin-top: 70px;
+    margin-left: 242px;
+    width: 375px;
+}
+
+#main_containers .h2 .scheme-item.two:before {
+    content: "";
+    display: block;
+    background: url("https://antony-profi.github.io/Site/line-2.png");
+    width: 254px;
+    height: 93px;
+    position: absolute;
+    top: -78px;
+    left: 92px;
+    z-index: -1;
+}
+
+#main_containers .h2 .scheme-item.three {
+    background: url("https://antony-profi.github.io/Site/03.png") no-repeat;
+    float: left;
+    margin-top: 41px;
+    margin-left: 32px;
+    width: 395px;
+}
+
+#main_containers .h2 .scheme-item.three:after {
+    content: "";
+    display: block;
+    background: url("https://antony-profi.github.io/Site/line-3.png");
+    width: 114px;
+    height: 117px;
+    position: absolute;
+    top: 130px;
+    left: 32px;
+    z-index: -1;
+}
+
+#main_containers .h2 .scheme-item.four {
+    background: url("https://antony-profi.github.io/Site/04.png") no-repeat;
+    float: left;
+    margin-top: 50px;
+    margin-left: 17px;
+    width: 377px;
+}
+
+#main_containers .h2 .scheme-item .title {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 31px;
+    margin-bottom: 14px;
+}
+
+#main_containers .h2 .scheme-item .text {
+    font-size: 17px;
+    line-height: 22px;
+    color: #b4b4b4;
+}
+
+#main_containers .h3 {
+    padding: 30px 120px;
+    background: #f2efe7;
+    max-width: 100%;
+    /* padding: 45px 0 95px; */
+}
+
+#main_containers .h3 h2 {
+    margin-bottom: 25px;
+}
+
+#main_containers .container_3 .bg {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#main_containers .container_3 .sub-title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#main_containers .h3 > .container_3 .swiper_works .swiper-wrapper img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#main_containers .h4 {
+    padding: 30px 70px;
+    max-width: 100%;
+}
+
+#main_containers .h4 > .container_4 .bg {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    /* border-bottom: 1px solid silver; */
+    margin: 30px auto;
+    padding-bottom: 10px;
+}
+
+#main_containers .container_4 .columns {
+    column-count: 2;
+}
+
+#main_containers .h4 .container_4 .bg:before {
+    content: "";
+    display: block;
+    width: 68px;
+    height: 35px;
+    background: url("https://antony-profi.github.io/Site/1.png");
+    position: absolute;
+    top: 53px;
+    right: -69px;
+}
+
+#main_containers .h4 .advantage-list {
+    height: 74%;
+    padding-top: 33px;
+    border-top: 1px solid #dae2dc;
+    border-bottom: 1px solid #dae2dc;
+}
+
+#main_containers .h4 .column-items {
+    height: 650px;
+}
+
+#main_containers .h4 .advantage-list ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#main_containers .h4 .advantage-list ul li {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #1e1e1d;
+    padding-left: 38px;
+    margin-bottom: 33px;
+    background: url("https://antony-profi.github.io/Site/check_mark.png") no-repeat 0 3px;
+}
+
+@media (max-width: 880px) {
+    #main_containers .h1 {
+        padding: 30px 60px;
+        max-width: 100%;
+    }
+
+    #main_containers .stand-mozaika > .row > div {
+        width: 30%;
+    }
+
+    #main_containers .h1 .stand-mozaika .stand-item .img img {
+        width: 97px;
+        height: 94px;
+        object-fit: cover;
+    }
+
+    #main_containers .h1 .stand-mozaika .stand-item span {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    #main_containers .h1 .stand-mozaika .stand-item span + span {
+        line-height: 22px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #main_containers .h2 {
+        padding: 30px 60px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    #main_containers .h2 .block-scheme .row {
+        flex-direction: column;
+    }
+
+    #main_containers .h2 .scheme-item {
+        z-index: auto;
+    }
+
+    #main_containers .h2 .scheme-item.one {
+        margin-top: 85px;
+        margin-left: auto;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item.two {
+        margin-top: 5px;
+        margin-left: auto;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item.three {
+        margin-top: 80px;
+        margin-left: auto;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item.four {
+        margin-top: 1px;
+        margin-left: auto;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item .text {
+        font-size: 17px;
+        line-height: 22px;
+        width: auto;
+        color: #b4b4b4;
+    }
+
+    #main_containers .h2 .three-two {
+        display: none;
+    }
+
+    #main_containers .h2 .two-three {
+        display: block;
+    }
+
+    #main_containers .h3 {
+        padding: 30px 60px;
+        background: #f2efe7;
+        max-width: 100%;
+    }
+
+    #main_containers .h3 > .container_3 .swiper_works .swiper-wrapper img {
+        max-width: 100%;
+    }
+
+    #main_containers .h4 {
+        padding: 30px 60px;
+        max-width: 100%;
+    }
+
+    #main_containers .container_4 .columns {
+        column-count: 1;
+    }
+
+    #main_containers .h4 .container_4 .bg:before {
+        top: 100px;
+        right: -33px;
+    }
+
+    #main_containers .h4 .column-items {
+        height: auto;
+    }
+
+    #main_containers .h4 .advantage-list {
+        border-top: 1px solid #dae2dc;
+    }
+}
+
+@media (max-width: 550px) {
+    #main_containers .h1 {
+        padding: 60px 10px;
+        max-width: 100%;
+    }
+
+    #main_containers .stand-mozaika > .row > div {
+        width: 50%;
+    }
+
+    #main_containers .h1 .stand-mozaika .stand-item .img img {
+        width: 97px;
+        height: 94px;
+        object-fit: cover;
+    }
+
+    #main_containers .h1 .stand-mozaika .stand-item span {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    #main_containers .h1 .stand-mozaika .stand-item span + span {
+        line-height: 22px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #main_containers .h2 {
+        padding: 30px 24px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    #main_containers .h2 .block-scheme .row {
+        flex-direction: column;
+    }
+
+    #main_containers .h2 .scheme-item {
+        z-index: auto;
+    }
+
+    #main_containers .h2 .scheme-item.one {
+        margin-top: 70px;
+        margin-left: auto;
+        right: 15px;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item.two {
+        margin-top: 33px;
+        margin-left: auto;
+        right: 15px;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item.three {
+        margin-top: 70px;
+        margin-left: auto;
+        right: 20px;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item.four {
+        margin-top: 50px;
+        margin-left: auto;
+        right: 15px;
+        width: auto;
+    }
+
+    #main_containers .h2 .scheme-item .text {
+        font-size: 17px;
+        line-height: 22px;
+        width: auto;
+        color: #b4b4b4;
+    }
+
+    #main_containers .h2 .three-two {
+        display: none;
+    }
+
+    #main_containers .h2 .two-three {
+        display: block;
+    }
+
+    #main_containers .h3 {
+        padding: 30px 30px;
+        background: #f2efe7;
+        max-width: 100%;
+    }
+
+    #main_containers .h3 > .container_3 .swiper_works .swiper-wrapper img {
+        max-width: 100%;
+    }
+
+    #main_containers .h4 {
+        padding: 30px 10px;
+        max-width: 100%;
+    }
+
+    #main_containers .container_4 .columns {
+        column-count: 1;
+    }
+
+    #main_containers .h4 .container_4 .bg:before {
+        top: 148px;
+        right: -16px;
+    }
+
+    #main_containers .h4 .column-items {
+        height: auto;
+    }
+}
